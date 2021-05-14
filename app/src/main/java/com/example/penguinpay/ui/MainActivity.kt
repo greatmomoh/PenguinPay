@@ -3,7 +3,10 @@ package com.example.penguinpay.ui
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.penguinpay.R
+import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.coroutines.ExperimentalCoroutinesApi
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {

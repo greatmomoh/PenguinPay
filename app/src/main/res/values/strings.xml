@@ -6,4 +6,13 @@
     <string name="country_hint">Country</string>
     <string name="amount">Amount</string>
     <string name="user_receives"><![CDATA[User Receives ->]]></string>
+    <string name="send">Send</string>
+    <string name="you_send"><![CDATA[You send :]]></string>
+
+    <string-array name="countries">
+        <item>KES</item>
+        <item>NGN</item>
+        <item>TZS</item>
+        <item>UGX</item>
+    </string-array>
 </resources>
