@@ -13,4 +13,21 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+
+    <style name="Theme.PenguinPay.InputField" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="shapeAppearance">@style/Theme.PenguinPay.ShapeAppearance.TextField</item>
+    </style>
+    <style name="Theme.PenguinPay.ShapeAppearance.TextField" parent="ShapeAppearance.MaterialComponents">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/size_16</item>
+    </style>
+
+    <style name="Theme.PenguinPay.TextInputLayout.DropDown" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="boxCornerRadiusTopStart">@dimen/size_16</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/size_16</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/size_16</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/size_16</item>
+        <item name="boxStrokeWidth">2dp</item>
+    </style>
 </resources>

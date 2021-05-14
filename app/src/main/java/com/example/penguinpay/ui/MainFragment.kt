@@ -1,4 +1,4 @@
-package com.example.penguinpay.ui.main
+package com.example.penguinpay.ui
 
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.penguinpay.R
+import com.example.penguinpay.presentation.MainViewModel
 
 class MainFragment : Fragment() {
 

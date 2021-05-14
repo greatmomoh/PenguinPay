@@ -1,4 +1,4 @@
-package com.example.penguinpay.ui.main
+package com.example.penguinpay.presentation
 
 import androidx.lifecycle.ViewModel
 

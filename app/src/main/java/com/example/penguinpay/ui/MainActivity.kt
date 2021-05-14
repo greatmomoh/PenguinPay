@@ -1,8 +1,8 @@
-package com.example.penguinpay
+package com.example.penguinpay.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.penguinpay.ui.main.MainFragment
+import com.example.penguinpay.R
 
 class MainActivity : AppCompatActivity() {
 

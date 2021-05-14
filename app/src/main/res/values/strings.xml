@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">PenguinPay</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="phone_number">Phone number</string>
+    <string name="country_hint">Country</string>
+    <string name="amount">Amount</string>
+    <string name="user_receives"><![CDATA[User Receives ->]]></string>
 </resources>
