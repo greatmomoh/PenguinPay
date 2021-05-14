@@ -48,6 +48,7 @@ class MainFragment : Fragment(R.layout.main_fragment) {
     }
 
     private fun initViews() {
+        PhoneNumberMask(binding.phoneNumberText).listen()
         val countries = resources.getStringArray(R.array.countries)
         val adapter = ArrayAdapter(requireContext(), R.layout.list_item, countries)
         binding.countryTypeDropdown.setAdapter(adapter)

@@ -97,6 +97,7 @@
             android:imeOptions="actionNext"
             android:inputType="phone"
             android:maxLines="1"
+            android:maxLength="12"
             android:singleLine="true" />
     </com.google.android.material.textfield.TextInputLayout>
 
